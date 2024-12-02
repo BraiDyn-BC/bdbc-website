@@ -1,0 +1,9 @@
+{
+  "name": "braidynd-bc-database",
+  "version": "0.1.0",
+  "description": "BraiDyn-BC Database",
+  "dependencies": {
+    "@filipecarneiro/hugo-bootstrap-theme": "^1.0.49",
+    "hugo-installer": "^4.0.1"
+  }
+}
