@@ -1,0 +1,27 @@
+baseURL = 'https://braidyndbcdatabase.netlify.app'
+languageCode = 'en-us'
+title = 'BraiDyn-BC Database'
+theme = "hugo-bootstrap-theme"
+themesdir = "node_modules/@filipecarneiro"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+#enableGitInfo = true
+enableEmoji = true
+#sectionPagesMenu = "main"
+#googleAnalytics = "UA-1511XXXX-X"
+
+[permalinks]
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.139.0"
+    max = "0.139.3"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"

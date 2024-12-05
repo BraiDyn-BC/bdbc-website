@@ -1,0 +1,5 @@
+﻿名前,Task,Animal,Experiments,Brain regions,Authors,Data size (GB),Indivisuals,Publication date,Session
+Sample：オペラント条件づけの学習過程,Learning Process,Mouse,"Body Camera, Face Camera, Wide field 1p",Whole Cortex,"Masanori Matsuzaki, Masashi Kondo",800,1,"August 8, 2024",15
+Sample:古典条件づけの学習過程,"Classical Conditioning, Learning Process",Mouse,"Body Camera, Face Camera, Lever-pull, Wide field 1p",Whole Cortex,"Masanori Matsuzaki, Masashi Kondo",18,1,"August 25, 2022",1
+Sample:レバー引き運動の学習,Target zone lever-pull,Mouse,"2p, Body Camera, Face Camera, Lever-pull, Wide field 1p",Whole Cortex,"Masanori Matsuzaki, Shin-Ichiro Terada",70,2,"August 25, 2022",2
+Complete:古典条件づけの学習過程,"Classical Conditioning, Learning Process",Mouse,"Body Camera, Face Camera, Lever-pull, Wide field 1p",Whole Cortex,"Masanori Matsuzaki, Masashi Kondo",612,2,"August 25, 2022",34

@@ -1,0 +1,43 @@
+[[main]]
+name = "Home"
+url = ""
+weight = 10
+
+[[main]]
+name = "About"
+url = "about"
+weight = 20
+title = "About"
+
+[[main]]
+name = "Database"
+url = "database"
+weight = 30
+title = "Database"
+
+[[main]]
+name = "Tutorial"
+url = "tutorial"
+weight = 40
+title = "Tutorial"
+
+[[main]]
+name = "Hackathon"
+url = "hackathon"
+weight = 50
+title = "Hackathon"
+
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 60
+title = "Contact"
+
+
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/BraiDyn-BC/bdbc-website"
+  weight = 10
+  title = "GitHub"
+

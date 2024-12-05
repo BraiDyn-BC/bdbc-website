@@ -1,0 +1,13 @@
+[ja]
+  languageName = "日本語"
+  languageCode = "ja-JP"
+  weight = 10
+  [ja.params]
+    languageISO = "JA"
+
+[en]
+  languageName = "English"
+  languageCode = "en-US"
+  weight = 20
+  [en.params]
+    languageISO = "EN"
