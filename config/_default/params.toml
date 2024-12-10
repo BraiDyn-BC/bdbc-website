@@ -6,7 +6,6 @@
 # https://schema.org/Thing
 # https://schema.org/Article
 description = ""
-# images = ['images/logo.png','images/site-feature-image.png']
 mainMenuLogo = "images/logo.png"
 
 # For favicons

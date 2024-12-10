@@ -3,7 +3,7 @@ title: "Complete: Learning process of classical conditioning"
 date: 2022-08-25T00:00:00+09:00
 draft: false
 tags: [Complete, Database]
-images: [スクリーンショット_2022-08-24_1.10.46.png]
+images: [2022-08-24_1.10.46.png]
 description: Classical conditioning experiments were conducted on head-fixed mice. Two different sounds, 6 kHz and 10 kHz, were presented as the conditioned stimulus (CS), and water was rewarded 70% of the time for 6 kHz and 30% of the time for 10 kHz, respectively, as the unconditioned stimulus (US). This experiment was conducted on two individual mice for about 30 minutes for a total of 17 days to record the learning process of classical conditioning. During this recording experiment, brain activity was measured throughout the cortex using a wide-field 1-photon microscope (Wide-field 1p) with a Ca2+ probe. In addition, video data (Face Camera, Body Camera) of the face and upper body of the mice were measured. Behavioral data of the mice were measured in terms of the timing of the clicks and rewards (Behavior data). The sample data is provided under a Creative Commons license for one session per individual on the 10th day after the completion of classical conditioning learning in the measurement system. In Kondo et. al. 2021, we analyzed the neural activity of one-photon and two-photon images only after learning classical conditioning in a similar paradigm, and found that the dorsal medial frontal cortex (dmFrC) is the starting point of reward-expectant behavior. In the Complete dataset, which will be shared with other researchers, we used the same measurement method as Kondo et. al. 2021 and measured the changes in brain activity leading up to the learning process.
 ---
 
@@ -23,7 +23,7 @@ Classical conditioning experiments were conducted on head-fixed mice. Two differ
 
 In Kondo et. al. 2021, we analyzed the neural activity of one-photon and two-photon images only after learning classical conditioning in a similar paradigm, and found that the dorsal medial frontal cortex (dmFrC) is the starting point of reward-expectant behavior. In the Complete dataset, which will be shared with other researchers, we used the same measurement method as Kondo et. al. 2021 and measured the changes in brain activity leading up to the learning process.
 
-![スクリーンショット 2022-08-24 1.10.46.png](スクリーンショット_2022-08-24_1.10.46.png)
+![スクリーンショット 2022-08-24 1.10.46.png](2022-08-24_1.10.46.png)
 
 ## Complete dataset
 
@@ -133,11 +133,11 @@ Behavioral data (analog voltage recorded via AD converter) measured at 5000 Hz f
 
 ## Results
 
-![スクリーンショット 2022-08-14 13.42.43.png](スクリーンショット_2022-08-14_13.42.43.png)
+![スクリーンショット 2022-08-14 13.42.43.png](2022-08-14_13.42.43.png)
 
 Schematic of classical conditioning task with different reward probabilities, with higher probability of reward after 6kH of sound presentation.
 
-![スクリーンショット 2022-08-14 13.39.34.png](スクリーンショット_2022-08-14_13.39.34.png)
+![スクリーンショット 2022-08-14 13.39.34.png](2022-08-14_13.39.34.png)
 
 Lick changes between 6kHz (red) and 10kHz (blue) as the number of sessions (days) elapses, showing that the number of Licks is the same for each sound in the early stages of Lick learning, but that the 6kHz sound learns significantly more Licks as the days elapse. The data presented here is from one individual in Session 7.
 
