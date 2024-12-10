@@ -1,13 +1,11 @@
 ---
 title: "Complete:古典条件づけの学習過程"
-date: 2024-08-25T00:00:00+09:00
+date: 2022-08-25T00:00:00+09:00
 draft: false
-tags: [Sample, Database]
+tags: [Complete, Database]
 images: [スクリーンショット_2022-08-24_1.10.46.png]
 description: 頭部固定マウスに対して古典的条件づけ実験を行った。条件刺激(CS)として6kHzと10kHzの2種類の異なる音を提示し、無条件刺激(US)として6kHzの場合70%の確率で水を報酬として供給、10kHzの場合30%の確率で水を報酬として供給した。この実験を2個体のマウスに対して30分間程度、合計17日間行うことで、古典条件づけの学習過程を記録した。この記録実験において、脳活動をCa2+プローブを使い広視野1光子顕微鏡（Wide-field 1p）により皮質全体の計測を行った。さらにマウスの顔および上半身のビデオデータ(Face Camera, Body Camera)の計測を行った。またマウスの行動データとしてリックや報酬のタイミングの計測した(Behavior data)。Kondo et. al. 2021では、同様のパラダイムでは古典条件づけの学習後のみの1光子イメージと2光子イメージの神経活動の解析を行った結果、背側前頭皮質内側部（dmFrC）が報酬期待行動における起始点であることが分かった。今回、共有予定のComplete datasetでは計測方法などはKondo et. al. 2021と共通した上で、その学習にいたるまでにどのように脳内の活動が変化していくかを計測した。 
 ---
-
-# Complete:古典条件づけの学習過程
 
 - Animal: Mouse
 - Brain regions: Whole Cortex
@@ -19,7 +17,7 @@ description: 頭部固定マウスに対して古典的条件づけ実験を行�
 - Indivisuals: 2
 - Session: 34
 
-# Abstract
+## Abstract
 
 頭部固定マウスに対して古典的条件づけ実験を行った。条件刺激(CS)として6kHzと10kHzの2種類の異なる音を提示し、無条件刺激(US)として6kHzの場合70%の確率で水を報酬として供給、10kHzの場合30%の確率で水を報酬として供給した。この実験を2個体のマウスに対して30分間程度、合計17日間行うことで、古典条件づけの学習過程を記録した。この記録実験において、脳活動をCa2+プローブを使い広視野1光子顕微鏡（Wide-field 1p）により皮質全体の計測を行った。さらにマウスの顔および上半身のビデオデータ(Face Camera, Body Camera)の計測を行った。またマウスの行動データとしてリックや報酬のタイミングの計測した(Behavior data)。
 
@@ -27,7 +25,7 @@ Kondo et. al. 2021では、同様のパラダイムでは古典条件づけの**
 
 ![スクリーンショット 2022-08-24 1.10.46.png](スクリーンショット_2022-08-24_1.10.46.png)
 
-# Complete dataset
+## Complete dataset
 
 ### Download
 
@@ -45,9 +43,9 @@ Kondo et. al. 2021では、同様のパラダイムでは古典条件づけの**
 
 Please cite: Kondo, M., & Matsuzaki, M. (2021). Neuronal representations of reward-predicting cues and outcome history with movement in the frontal cortex. *Cell Reports* , *34* (5), 108704. doi: [https://doi.org/10.1016/j.celrep.2021.108704](https://doi.org/10.1016/j.celrep.2021.108704)
 
-# Data Description
+## Data Description
 
-## Directory structure of complete dataset
+### Directory structure of complete dataset
 
 Complete datasetのリンクから1_Raw, 2_Preprocessed, 3_ROIsegmentationの３つのディレクトリへアクセスできます。このうち、2_Preprocessedは現在未実装です。
 
@@ -55,11 +53,11 @@ Complete datasetのリンクから1_Raw, 2_Preprocessed, 3_ROIsegmentationの３
 
 **3_ROIsegmentationディレクトリ**では処理後のデータにアクセスできます。フレームレートはすべて30Hzに揃えられており、次の処理を行いました：1．揺れ補正、2．Allen CCFへの合わせ込み、3．左半球のみクリップ、4．SVD→トップ24特異値で再構成してデノイズ、5．各ピクセルごと，各時点−15〜＋15sの時間窓の10パーセンタイルをFとしてdF/F化。また、（プレトレーニング：3セッション、ここでは両方の音，100％報酬確率）。3_ROIsegmentation以下には個体番号のディレクトリの下に日付のディレクトリが存在し、その中にmatファイルとしてProcessed dataが格納されています。
 
-## File description of sample data
+### File description of sample data
 
 マウスの個体番号RCtg_Pv12、RCtg_Pv13の2個体をそれぞれ合計17日間計測した。1日に4セッションの計測を行った。
 
-### **Raw data**
+#### **Raw data**
 
 **Body Camera Movie: Cam1-180623(日付)_RCtg_Pv12(個体番号).avi**
 
@@ -93,7 +91,7 @@ Complete datasetのリンクから1_Raw, 2_Preprocessed, 3_ROIsegmentationの３
 
 **ch.7**：音周波数（ch.3がHIGHのとき，このchの音が鳴っている．単位kHz）
 
-### Analyzed data
+#### Analyzed data
 
 **stdData_(計測日)_(個体番号).mat**
 
@@ -133,7 +131,7 @@ Complete datasetのリンクから1_Raw, 2_Preprocessed, 3_ROIsegmentationの３
 
 **Frate**：サンプリングレート
 
-# Results
+## Results
 
 ![スクリーンショット 2022-08-14 13.42.43.png](スクリーンショット_2022-08-14_13.42.43.png)
 
@@ -143,9 +141,9 @@ Complete datasetのリンクから1_Raw, 2_Preprocessed, 3_ROIsegmentationの３
 
 Session（日数）の経過による6kHz（赤）と10kHz（青）でのLickの変化。Lickの学習初期ではそれぞれの音でLick数が変わらないが、日にちが経つことで学習し6Khzの音の方が有意にLick数が多く学習していることがわかる。今回公開するデータはSession 7の1個体のデータ。
 
-# Method
+## Method
 
-## Processing of Wide-field 1 photon image
+### Processing of Wide-field 1 photon image
 
  各画像スタックは、10 個の特徴点を使用して、Allen Common Coordinate Framework バージョン 3 (Allen CCF) の上面図に位置合わせした。特徴点は、(FrC)嗅球の両側前神経節、前頭血管の中央および側端、ラムダ縫合糸、背側皮質の両側後端、および背側皮質の両側側端に設定した。皮質に対するマスクはアレン CCF から作成され、大脳皮質の外側のピクセルの蛍光変化を除外した。左半球のピクセルのみの活動を利用した。ノイズ削減のために画像スタックの特異値分解 (SVD) を計算し上位24個の特異値から画像を再構成した。SVD の結果からは空間成分U(サイズのピクセル×成分)、特異値S(サイズの空間成分×時間成分)、および転置された時間成分VT（サイズコンポーネント×フレーム）が得られています。
 
@@ -153,10 +151,10 @@ Session（日数）の経過による6kHz（赤）と10kHz（青）でのLickの
 
 セッションとマウスごとに、ROI の位置を手動で微調整しました。各ROIの蛍光強度は、含まれるピクセルを平均することによって決定されました。ROI から抽出された神経活動は、Z スコアに変換され、各キュートーンの開始に合わせて調整されました。各ピクセルごと，各時点−15〜＋15sの時間窓の10パーセンタイルをFとしてdF/F化しています。
 
-## Processing of Face and Body camera image
+### Processing of Face and Body camera image
 
 高速度カメラから得られたビデオは、FaceMap パッケージ ( [Stringer et al., 2019](https://www.sciencedirect.com/science/article/pii/S2211124721000176?via%3Dihub#bib73) ; [https://github.com/MouseLand/FaceMap](https://github.com/MouseLand/FaceMap) ) で処理され、口、鼻、ひげ、および上半身の部分を識別しました。ROI は、前肢と胸部、鼻、口、ひげパッドに設定され、各 ROI の運動エネルギー (フレーム間の絶対差) の SVD が計算されました。*ソフトウェアは、空間成分U*と特異値*S*から計算された「モーション マスク」を生成しました。SVDによって発見され、特異値空間での分離可能な動きの時系列は、モーションマスクに元の時系列データを掛けることによって計算されました。
 
-### Reference
+## Reference
 
 Kondo, M., & Matsuzaki, M. (2021). Neuronal representations of reward-predicting cues and outcome history with movement in the frontal cortex. *Cell Reports* , *34* (5), 108704.

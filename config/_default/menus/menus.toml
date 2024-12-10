@@ -33,10 +33,9 @@ url = "contact"
 weight = 60
 title = "Contact"
 
-
 [[social]]
   name = "GitHub"
-  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg>"
   url = "https://github.com/BraiDyn-BC/bdbc-website"
   weight = 10
   title = "GitHub"

@@ -7,8 +7,6 @@ images: [スクリーンショット_2022-08-24_1.09.30.png]
 description: Classical conditioning experiments were conducted on head-fixed mice. Two different sounds, 6 kHz and 10 kHz, were presented as the conditioned stimulus (CS), and water was rewarded 70% of the time for 6 kHz and 30% of the time for 10 kHz, respectively, as the unconditioned stimulus (US). This experiment was conducted on two individual mice for about 30 minutes for a total of 17 days to record the learning process of classical conditioning. During this recording experiment, brain activity was measured throughout the cortex using a wide-field 1-photon microscope (Wide-field 1p) with a Ca2+ probe. In addition, video data (Face Camera, Body Camera) of the face and upper body of the mice were measured. Behavioral data of the mice were measured in terms of the timing of the clicks and rewards (Behavior data). The sample data is provided under a Creative Commons license for one session per individual on the 10th day after the completion of classical conditioning learning in the measurement system. In a similar paradigm, Kondo et. al. 2021 analyzed neural activity in one- and two-photon images of classical conditioning **only after learning** and found that the dorsal medial frontal cortex (dmFrC) was the starting point for reward anticipatory behavior. In the Sample dataset, we provide data from one individual after learning, as in Kondo et. al. 2021. The sample dataset provides data from one individual after learning, as in Kondo et al. 2021.
 ---
 
-# Sample: Learning process of classical conditioning
-
 - Animal: Mouse
 - Brain regions: Whole Cortex
 - Experiments: Body Camera, Face Camera, Lever-pull, Wide field 1p
@@ -19,7 +17,7 @@ description: Classical conditioning experiments were conducted on head-fixed mic
 - Indivisuals: 1
 - Session: 1
 
-# Abstract
+## Abstract
 
 Classical conditioning experiments were conducted on head-fixed mice. Two different sounds, 6 kHz and 10 kHz, were presented as the conditioned stimulus (CS), and water was rewarded 70% of the time for 6 kHz and 30% of the time for 10 kHz, respectively, as the unconditioned stimulus (US). This experiment was conducted on two individual mice for about 30 minutes for a total of 17 days to record the learning process of classical conditioning. During this recording experiment, brain activity was measured throughout the cortex using a wide-field 1-photon microscope (Wide-field 1p) with a Ca2+ probe. In addition, video data (Face Camera, Body Camera) of the face and upper body of the mice were measured. Behavioral data of the mice were measured in terms of the timing of the clicks and rewards (Behavior data). The sample data is provided under a Creative Commons license for one session per individual on the 10th day after the completion of classical conditioning learning in the measurement system.
 
@@ -27,41 +25,36 @@ In a similar paradigm, Kondo et. al. 2021 analyzed neural activity in one- and t
 
 ![スクリーンショット 2022-08-24 1.09.30.png](%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588_2022-08-24_1.09.30.png)
 
-# Sample dataset
+## Sample dataset
 
 ### Download
 
 **Raw data**
 
-<aside>
-💡 Body Camera Movie: [https://drive.google.com/file/d/11FX1B8sKJRLO9na8_S3nKRQ1pLSeVtvn/view?usp=sharing](https://drive.google.com/file/d/1846ha7H2c-oNmAImd9c3h0XRDXt2RYz2/view?usp=sharing)
-Face Camera Movie: 
-https://drive.google.com/file/d/1zsyIeEw98-aM-WcutHQIHUkFfeFI0QxY/view?usp=sharing
-Wide Field 1p(1-4 are consecutive 1 Session frames when combined):
-1: https://drive.google.com/file/d/1pqB8-33TGIJcIRWV0QUTEZbjOXeRUqmc/view?usp=sharing
-2: https://drive.google.com/file/d/1ribGnUIg-prPB78pnaZ7RATgfNzN2gPR/view?usp=sharing
-3: https://drive.google.com/file/d/1m30zsBJcAioRRdBLKRZhECkUhAyb8HKE/view?usp=sharing
-4: https://drive.google.com/file/d/11NqaQ2hMMMl2yBiAfJ28g7L6qL135Myc/view?usp=sharing
-Behavior data: 
-https://drive.google.com/file/d/1Co1oGzG0mtqNthAILHo85lS4eY-oGXSk/view?usp=sharing
+> 💡 Body Camera Movie: [https://drive.google.com/file/d/11FX1B8sKJRLO9na8_S3nKRQ1pLSeVtvn/view?usp=sharing](https://drive.google.com/file/d/1846ha7H2c-oNmAImd9c3h0XRDXt2RYz2/view?usp=sharing)
+> Face Camera Movie: 
+> https://drive.google.com/file/d/1zsyIeEw98-aM-WcutHQIHUkFfeFI0QxY/view?usp=sharing
+> Wide Field 1p(1-4 are consecutive 1 Session frames when combined):
+> 1: https://drive.google.com/file/d/1pqB8-33TGIJcIRWV0QUTEZbjOXeRUqmc/view?usp=sharing
+> 2: https://drive.google.com/file/d/1ribGnUIg-prPB78pnaZ7RATgfNzN2gPR/view?usp=sharing
+> 3: https://drive.google.com/file/d/1m30zsBJcAioRRdBLKRZhECkUhAyb8HKE/view?usp=sharing
+> 4: https://drive.google.com/file/d/11NqaQ2hMMMl2yBiAfJ28g7L6qL135Myc/view?usp=sharing
+> Behavior data: 
+> https://drive.google.com/file/d/1Co1oGzG0mtqNthAILHo85lS4eY-oGXSk/view?usp=sharing
 
-</aside>
-
-![スクリーンショット 2022-08-11 23.30.52.png](%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2022-08-11_23.30.52.png)
+![スクリーンショット 2022-08-11 23.30.52.png](スクリーンショット_2022-08-11_23.30.52.png)
 
 **Analyzed data**
 
-<aside>
-💡 Processed data: https://drive.google.com/file/d/1WSgk6Ku1hRn6pJv_KOD5FfUKV5RLK_Q5/view?usp=sharing
-ROI region image:　https://drive.google.com/file/d/1xrirQeRZU41P7S7zre7m6na9rBeh0wKt/view?usp=sharing
-Activity movie:
-https://drive.google.com/file/d/15X05Y0_eqOgnuR_qhegy5SujGTIGO7AE/view?usp=sharing
+> 💡 Processed data: https://drive.google.com/file/d/1WSgk6Ku1hRn6pJv_KOD5FfUKV5RLK_Q5/view?usp=sharing
+> ROI region image:　https://drive.google.com/file/d/1xrirQeRZU41P7S7zre7m6na9rBeh0wKt/view?usp=sharing
+> Activity movie:
+> https://drive.google.com/file/d/15X05Y0_eqOgnuR_qhegy5SujGTIGO7AE/view?usp=sharing
 
-</aside>
 
 ### Data License
 
-![Untitled](Untitled.png)
+<img src="Untitled.png" alt="Untitled" style="width:300px"/>
 
 This sample dataset is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
@@ -69,13 +62,13 @@ This sample dataset is licensed under a [Creative Commons Attribution 4.0 Inter
 
 Please cite: Kondo, M., & Matsuzaki, M. (2021). Neuronal representations of reward-predicting cues and outcome history with movement in the frontal cortex. *Cell Reports* , *34* (5), 108704. doi: https://doi.org/10.1016/j.celrep.2021.108704
 
-# Data Description
+## Data Description
 
-## File description of sample data
+### File description of sample data
 
 Two mouse populations, RCtg_Pv12 and RCtg_Pv13, were each measured for a total of 17 days. 4 sessions were measured per day.
 
-### **Raw data**
+#### **Raw data**
 
 **Body Camera Movie: Cam1-180623_RCtg_Pv12.avi**
 
@@ -109,7 +102,7 @@ Behavioral data (analog voltage recorded via AD converter) measured at 5000 Hz f
 
 **ch.7**: Sound frequency (When ch.3 is HIGH, this channel is sounding. Unit kHz)
 
-### Analyzed data
+#### Analyzed data
 
 **stdData_(day)_(id).mat**
 
@@ -149,19 +142,19 @@ Behavioral data (analog voltage recorded via AD converter) measured at 5000 Hz f
 
 **Frate**：Sampling rate
 
-# Results
+## Results
 
-![スクリーンショット 2022-08-14 13.42.43.png](%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2022-08-14_13.42.43.png)
+![スクリーンショット 2022-08-14 13.42.43.png](スクリーンショット_2022-08-14_13.42.43.png)
 
 Schematic of classical conditioning task with different reward probabilities, with higher probability of reward after 6kH of sound presentation.
 
-![スクリーンショット 2022-08-14 13.39.34.png](%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2022-08-14_13.39.34.png)
+![スクリーンショット 2022-08-14 13.39.34.png](スクリーンショット_2022-08-14_13.39.34.png)
 
 Lick changes between 6kHz (red) and 10kHz (blue) as the number of sessions (days) elapses, showing that the number of Licks is the same for each sound in the early stages of Lick learning, but that the 6kHz sound learns significantly more Licks as the days elapse. The data presented here is from one individual in Session 7.
 
-# Method
+## Method
 
-## Processing of Wide-field 1 photon image
+### Processing of Wide-field 1 photon image
 
 Each image stack was aligned to the Allen Common Coordinate Framework version 3 (Allen CCF) top view using 10 feature points. Feature points were set at the bilateral anterior ganglia of the (FrC) olfactory bulb, the central and lateral ends of the frontal vessels, the lambda suture, the bilateral posterior ends of the dorsal cortex, and the bilateral lateral ends of the dorsal cortex. Masks for the cortex were created from the Allen CCF to exclude fluorescence changes in the outer cortical pixels. Only the activity of pixels in the left hemisphere was used. Singular value decomposition (SVD) of the image stack was computed for noise reduction and the image was reconstructed from the top 24 singular values; the SVD results yielded a spatial component U (size pixel x component), a singular value S (size spatial component x temporal component), and an inverted temporal component VT (size component x frame ) are obtained.
 
@@ -169,10 +162,10 @@ Using the reconstructed data, the change in fluorescence intensity (Δ F / F) wa
 
 For each session and mouse, the position of the ROI was fine-tuned manually. The fluorescence intensity of each ROI was determined by averaging the included pixels; the neural activity extracted from the ROI was converted to a Z-score and adjusted for the onset of each cue tone. For each pixel, the 10th percentile of the time window from -15 to +15 s for each time point was converted to dF/F as F
 
-## Processing of Face and Body camera image
+### Processing of Face and Body camera image
 
 Video obtained from the high-speed camera was processed with the FaceMap package ( Stringer et al., 2019 ; https://github.com/MouseLand/FaceMap ) to identify mouth, nose, beard, and upper body parts.ROIs were set for the forelimbs and chest, nose, mouth and beard pads, and the SVD of the kinetic energy (absolute difference between frames) of each ROI was computed. The software generated a "motion mask" calculated from the spatial component U and the singular value S. The time series of separable motions in singular value space, found by the SVD, were calculated by multiplying the motion mask by the original time series data.
 
-### Reference
+## Reference
 
 Kondo, M., & Matsuzaki, M. (2021). Neuronal representations of reward-predicting cues and outcome history with movement in the frontal cortex. *Cell Reports* , *34* (5), 108704.

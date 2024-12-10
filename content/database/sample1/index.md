@@ -7,8 +7,6 @@ images: [c78daeec-3aa0-4996-848f-f650e0f4e203.png]
 description: 頭部固定マウスにおいて，右前肢で操作可能なレバーを用いたオペラントコンディショニング課題を行った．課題学習中の背側大脳皮質神経活動，上半身・顔・眼球のビデオ記録，および行動・環境センサーの値を15セッション（30min/セッション）にわたって記録した．これに加え，オペラントコンディショニング開始から起算して−1，1,7,15セッション目の行動課題後に，安静時脳活動を記録した（10min/セッション）．オペラントコンディショニング開始から起算して16セッション目には，麻酔下条件で感覚刺激応答を記録した（15min）．本実験において、Ca2+センサーと広視野1光子顕微鏡（Wide-field 1p）により背側大脳皮質全体の神経活動を計測した。さらにマウスの上半身・顔・眼球のビデオ記録ビデオデータ(Body/Face/Eye Camera)を行った。またマウスの行動データとしてレバー位置，舌なめ（licking）に加え，報酬や音刺激提示のタイミングを計測した(Behavior data)。本サンプルデータ公開は，全25個体ぶんのデータ公開に先駆けて1個体の全セッションのデータを①生データ（記録された状態のままのデータ）および②前処理済みデータ（すぐ解析に使用できるよう定型的な処理を施したデータ）の双方を，Creative Commonsライセンスで提供するものである。 
 ---
 
-# Sample:オペラント条件づけの学習過程
-
 - Animal: Mouse
 - Brain regions: Whole Cortex
 - Experiments: Body Camera, Face Camera, Wide field 1p
@@ -18,8 +16,8 @@ description: 頭部固定マウスにおいて，右前肢で操作可能なレ�
 - Data size (GB): 800
 - Indivisuals: 1
 - Session: 15
-    
-# Abstract
+  
+## Abstract
 
 頭部固定マウスにおいて，右前肢で操作可能なレバーを用いたオペラントコンディショニング課題を行った．課題学習中の背側大脳皮質神経活動，上半身・顔・眼球のビデオ記録，および行動・環境センサーの値を15セッション（30min/セッション）にわたって記録した．これに加え，オペラントコンディショニング開始から起算して−1，1,7,15セッション目の行動課題後に，安静時脳活動を記録した（10min/セッション）．オペラントコンディショニング開始から起算して16セッション目には，麻酔下条件で感覚刺激応答を記録した（15min）．本実験において、Ca2+センサーと広視野1光子顕微鏡（Wide-field 1p）により背側大脳皮質全体の神経活動を計測した。さらにマウスの上半身・顔・眼球のビデオ記録ビデオデータ(Body/Face/Eye Camera)を行った。またマウスの行動データとしてレバー位置，舌なめ（licking）に加え，報酬や音刺激提示のタイミングを計測した(Behavior data)。本サンプルデータ公開は，全25個体ぶんのデータ公開に先駆けて1個体の全セッションのデータを①生データ（記録された状態のままのデータ）および②前処理済みデータ（すぐ解析に使用できるよう定型的な処理を施したデータ）の双方を，Creative Commonsライセンスで提供するものである。
 
@@ -27,33 +25,33 @@ description: 頭部固定マウスにおいて，右前肢で操作可能なレ�
 
 ![スクリーンショット 2024-08-08 1.54.26.png](c78daeec-3aa0-4996-848f-f650e0f4e203.png)
 
-# Sample dataset
+## Sample dataset
 
-### **NWB  processed dataset (Recommended)**
+### NWB  processed dataset (Recommended)
 
-> 💡 All NWB dataset (46GB):https://www.dropbox.com/scl/fo/lm6mdu4j7egraynkfir7g/AOchoUWzlYLqsUHJvDOjT5M?rlkey=48nmrnfa0sm8y43w3c172kzcv&dl=0
-> 
-> Day 1 resting state: https://www.dropbox.com/scl/fi/4t2liwobfq1uy81sqrmk8/VG1GC-61_2023-06-15_resting-state-day1.nwb?rlkey=gnnytl3lv53xlskr8afa1mo8r&dl=0
-> Day 1: https://www.dropbox.com/scl/fi/3jbphtwfjmcvmwlfeihpk/VG1GC-61_2023-06-15_task-day1.nwb?rlkey=4s991iftx7l4xdrf9f30hfpwf&dl=0
-> Day 2: https://www.dropbox.com/scl/fi/nqxu9x28jxy0uh04921h7/VG1GC-61_2023-06-16_task-day2.nwb?rlkey=9e4hbwkv6vprdnoahl8mpzy6w&dl=0
-> Day 3: https://www.dropbox.com/scl/fi/lauidpgvidmowblgshkaj/VG1GC-61_2023-06-19_task-day3.nwb?rlkey=ndxbqsjnmdjapjhl28hmdpska&dl=0
-> Day 4: https://www.dropbox.com/scl/fi/tkqmf4s9oja8dzubchk0s/VG1GC-61_2023-06-20_task-day4.nwb?rlkey=1et2hsri9ybj516dunwgrta09&dl=0
-> Day 5: https://www.dropbox.com/scl/fi/rlcxky5yw2ewxo8acyuxs/VG1GC-61_2023-06-21_task-day5.nwb?rlkey=wy9qam4nk0xbdmcv5ks5zn9ac&dl=0
-> Day 6: https://www.dropbox.com/scl/fi/uzuvb80ie7u31h83xjku0/VG1GC-61_2023-06-22_task-day6.nwb?rlkey=jcphvxi74vwcgm591wi4wm1rq&dl=0
-> Day 7 resting state: https://www.dropbox.com/scl/fi/plsveiru8zniwbok9fz2k/VG1GC-61_2023-06-23_resting-state-day7.nwb?rlkey=7d4s5oojwqur9m4ujugjabd37&dl=0
-> Day 7: https://www.dropbox.com/scl/fi/vmgwj9ermuzj6st0ow4m6/VG1GC-61_2023-06-23_task-day7.nwb?rlkey=bh1psajutux933qclu6cubfq5&dl=0
-> Day 8: https://www.dropbox.com/scl/fi/shjkpe05fbsfo7nqnhqay/VG1GC-61_2023-06-26_task-day8.nwb?rlkey=ekpuf7sgut3pb3op8wfdx4e3n&dl=0
-> Day 9: https://www.dropbox.com/scl/fi/ctql6xqveq9si06v8wi6p/VG1GC-61_2023-06-27_task-day9.nwb?rlkey=e0et3m5sq3zwjw04bxr6w1yh8&dl=0
-> Day 10: https://www.dropbox.com/scl/fi/h4pikm51j0j01clds39ij/VG1GC-61_2023-06-28_task-day10.nwb?rlkey=tq7qdzl92iiede45m98obu4zv&dl=0
-> Day 11: https://www.dropbox.com/scl/fi/g5m813otmzsomg2iw4l6g/VG1GC-61_2023-06-29_task-day11.nwb?rlkey=tdriw72ng1lj7p4k9tob7imkt&dl=0
-> Day 12: https://www.dropbox.com/scl/fi/u0qz3ccmgyylyamcrejue/VG1GC-61_2023-06-30_task-day12.nwb?rlkey=vgdc8yvtf2j15meujqne3lhtl&dl=0
-> Day 13: https://www.dropbox.com/scl/fi/5jf98ru2wo31sf09dc21m/VG1GC-61_2023-07-03_task-day13.nwb?rlkey=etlvad8zd32qvns3pjp8vt0ei&dl=0
-> Day 14: https://www.dropbox.com/scl/fi/n8qjjsfxqxlb5oge43caq/VG1GC-61_2023-07-04_task-day14.nwb?rlkey=r16rtvtjpnewjwkpawchl9ahe&dl=0
-> Day 15 restinga state: https://www.dropbox.com/scl/fi/gf8yvxompaeaodecg074u/VG1GC-61_2023-07-05_resting-state-day15.nwb?rlkey=oe3uw8z0n6xenuv2wont3wl8v&dl=0
-> Day 15: https://www.dropbox.com/scl/fi/czgo66wwqd18e4aytc5rq/VG1GC-61_2023-07-05_task-day15.nwb?rlkey=1ao49fbejkpnw4sczys7h7fhx&dl=0
+> 💡 All NWB dataset (46GB): [Dropboxファイル](https://www.dropbox.com/scl/fo/lm6mdu4j7egraynkfir7g/AOchoUWzlYLqsUHJvDOjT5M?rlkey=48nmrnfa0sm8y43w3c172kzcv&dl=0)
+>
+> Day 1 resting state: [VG1GC-61_2023-06-15_resting-state-day1.nwb](https://www.dropbox.com/scl/fi/4t2liwobfq1uy81sqrmk8/VG1GC-61_2023-06-15_resting-state-day1.nwb?rlkey=gnnytl3lv53xlskr8afa1mo8r&dl=0)
+> Day 7 resting state: [VG1GC-61_2023-06-23_resting-state-day7.nwb](https://www.dropbox.com/scl/fi/plsveiru8zniwbok9fz2k/VG1GC-61_2023-06-23_resting-state-day7.nwb?rlkey=7d4s5oojwqur9m4ujugjabd37&dl=0)
+> Day 15 resting state: [VG1GC-61_2023-07-05_resting-state-day15.nwb](https://www.dropbox.com/scl/fi/gf8yvxompaeaodecg074u/VG1GC-61_2023-07-05_resting-state-day15.nwb?rlkey=oe3uw8z0n6xenuv2wont3wl8v&dl=0)
+> Day 1: [VG1GC-61_2023-06-15_task-day1.nwb](https://www.dropbox.com/scl/fi/3jbphtwfjmcvmwlfeihpk/VG1GC-61_2023-06-15_task-day1.nwb?rlkey=4s991iftx7l4xdrf9f30hfpwf&dl=0)
+> Day 2: [VG1GC-61_2023-06-16_task-day2.nwb](https://www.dropbox.com/scl/fi/nqxu9x28jxy0uh04921h7/VG1GC-61_2023-06-16_task-day2.nwb?rlkey=9e4hbwkv6vprdnoahl8mpzy6w&dl=0)
+> Day 3: [VG1GC-61_2023-06-19_task-day3.nwb](https://www.dropbox.com/scl/fi/lauidpgvidmowblgshkaj/VG1GC-61_2023-06-19_task-day3.nwb?rlkey=ndxbqsjnmdjapjhl28hmdpska&dl=0)
+> Day 4: [VG1GC-61_2023-06-20_task-day4.nwb](https://www.dropbox.com/scl/fi/tkqmf4s9oja8dzubchk0s/VG1GC-61_2023-06-20_task-day4.nwb?rlkey=1et2hsri9ybj516dunwgrta09&dl=0)
+> Day 5: [VG1GC-61_2023-06-21_task-day5.nwb](https://www.dropbox.com/scl/fi/rlcxky5yw2ewxo8acyuxs/VG1GC-61_2023-06-21_task-day5.nwb?rlkey=wy9qam4nk0xbdmcv5ks5zn9ac&dl=0)
+> Day 6: [VG1GC-61_2023-06-22_task-day6.nwb](https://www.dropbox.com/scl/fi/uzuvb80ie7u31h83xjku0/VG1GC-61_2023-06-22_task-day6.nwb?rlkey=jcphvxi74vwcgm591wi4wm1rq&dl=0)
+> Day 7: [VG1GC-61_2023-06-23_task-day7.nwb](https://www.dropbox.com/scl/fi/vmgwj9ermuzj6st0ow4m6/VG1GC-61_2023-06-23_task-day7.nwb?rlkey=bh1psajutux933qclu6cubfq5&dl=0)
+> Day 8: [VG1GC-61_2023-06-26_task-day8.nwb](https://www.dropbox.com/scl/fi/shjkpe05fbsfo7nqnhqay/VG1GC-61_2023-06-26_task-day8.nwb?rlkey=ekpuf7sgut3pb3op8wfdx4e3n&dl=0)
+> Day 9: [VG1GC-61_2023-06-27_task-day9.nwb](https://www.dropbox.com/scl/fi/ctql6xqveq9si06v8wi6p/VG1GC-61_2023-06-27_task-day9.nwb?rlkey=e0et3m5sq3zwjw04bxr6w1yh8&dl=0)
+> Day 10: [VG1GC-61_2023-06-28_task-day10.nwb](https://www.dropbox.com/scl/fi/h4pikm51j0j01clds39ij/VG1GC-61_2023-06-28_task-day10.nwb?rlkey=tq7qdzl92iiede45m98obu4zv&dl=0)
+> Day 11: [VG1GC-61_2023-06-29_task-day11.nwb](https://www.dropbox.com/scl/fi/g5m813otmzsomg2iw4l6g/VG1GC-61_2023-06-29_task-day11.nwb?rlkey=tdriw72ng1lj7p4k9tob7imkt&dl=0)
+> Day 12: [VG1GC-61_2023-06-30_task-day12.nwb](https://www.dropbox.com/scl/fi/u0qz3ccmgyylyamcrejue/VG1GC-61_2023-06-30_task-day12.nwb?rlkey=vgdc8yvtf2j15meujqne3lhtl&dl=0)
+> Day 13: [VG1GC-61_2023-07-03_task-day13.nwb](https://www.dropbox.com/scl/fi/5jf98ru2wo31sf09dc21m/VG1GC-61_2023-07-03_task-day13.nwb?rlkey=etlvad8zd32qvns3pjp8vt0ei&dl=0)
+> Day 14: [VG1GC-61_2023-07-04_task-day14.nwb](https://www.dropbox.com/scl/fi/n8qjjsfxqxlb5oge43caq/VG1GC-61_2023-07-04_task-day14.nwb?rlkey=r16rtvtjpnewjwkpawchl9ahe&dl=0)
+> Day 15: [VG1GC-61_2023-07-05_task-day15.nwb](https://www.dropbox.com/scl/fi/czgo66wwqd18e4aytc5rq/VG1GC-61_2023-07-05_task-day15.nwb?rlkey=1ao49fbejkpnw4sczys7h7fhx&dl=0)
 
 
-### **All dataset (15 task and 3 resting state of NWB, Wide-field 1 photon images, Face and body movies) 800GB程度**
+### All dataset (15 task and 3 resting state of NWB, Wide-field 1 photon images, Face and body movies) 800GB程度
 
 > 💡 https://www.dropbox.com/scl/fo/ve6gu87i28h245af854ho/AAhBEGs2XqYRftr6toEL7Bs?rlkey=fx9gxe89pqx73tedqcg79ydc4&dl=0
 > 
@@ -65,15 +63,15 @@ description: 頭部固定マウスにおいて，右前肢で操作可能なレ�
 
 This sample dataset is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-# Tutorial
+## Tutorial
 
 [Python Tutorial: NWBからPeri-Event Time Histogram作成](Python%20Tutorial%20NWB%E3%81%8B%E3%82%89Peri-Event%20Time%20Histogram%E4%BD%9C%E6%88%90%20e5295d783391497896764b190182ef55.md)
 
 [MATLAB Tutorial: NWBからPeri-Event Time Histogram作成](MATLAB%20Tutorial%20NWB%E3%81%8B%E3%82%89Peri-Event%20Time%20Histogram%E4%BD%9C%E6%88%90%2080320cdff81f45ca9ee538b3ac2e571d.md)
 
-# Data description
+## Data description
 
-## File description of sample data
+### File description of sample data
 
 上記で述べた行動課題を15セッション（30min/session），行動課題後の安静時脳活動を4セッション（10min/session），15セッションの行動課題を終えたのちに麻酔下条件での感覚刺激実験を1セッション（15min）行った．本サンプルデータセットでは行動課題15セッション，安静時活動記録4セッションのデータが含まれる．．
 
@@ -94,7 +92,7 @@ This sample dataset is licensed under a [Creative Commons Attribution 4.0 Inter
     - estimated positions of body-parts/pupil（3つのビデオデータからDLCによって抽出された体部位，元となるビデオの左上をゼロとするXY座標）
     - behavior
 
-### **Raw data**
+#### **Raw data**
 
 - Neural activity：「imaging」フォルダ内
     - **Blue励起画像：** VG1GC-61_(日付)_(task/resting-state)-day(セッション番号)_B.tif
@@ -138,7 +136,7 @@ Over_thr.: タスク制御プログラムにおいてレバー状態監視に用
 
 **Video_trig**：上半身・顔・眼球を撮影している3台のマシンビジョンカメラの制御信号（単位V）．各パルスの立ち上がりで撮影が行われる（HIGHになっている間に露光が行われている**わけではない**点に注意）．
 
-### **Processed data（NWB）**
+#### **Processed data（NWB）**
 
 session_description:　セッションの説明
 
@@ -296,13 +294,13 @@ ImagingPlane_UV：UVチャネルの画像取得に関する情報
 
 ImagingPlane_blue：blueチャネルの画像取得に関する情報
 
-# Methods
+## Methods
 
-## Behavioral task
+### Behavioral task
 
 すべての行動・イメージング実験は防音ボックス内で行われ，ボックス内は暗状態とした．レバーはマウスの尾側方向へ4mm可動し，行動課題においてレバーを引いている状態は1mm以上レバーが引かれている状態として定義した．ひとつのトライアルは音刺激（10kHz純音，70dB  SPL，200ms）の提示から始まり，1s以内にレバーをトライアル成功に必要な時間Tpul以上引き続けることで成功トライアルとなり，報酬として4uLの水がマウスの口の前に設置された呑み口から与えられた．1s以内にレバーを引かなかったトライアル，およびレバーを一度引いたもののそれをTpull以上継続できなったトライアルは失敗トライアルとして判定した．Inter-trial-interval（ITI）はトライアルごとに3−4sの範囲でランダムで決定され，ITI期間中にレバーが引かれた場合はその経過時間がリセットされた．Tpullは直近20トライアルの成功率が80％であった場合に50ms単位で延長され（最小1ms，最大400msまで），一度延長されたらそのセッションにおいてはその後の成功率にかかわらず短縮はされない．あるセッションの終了時におけるTpul_finalとし，その次のセッションにおけるTpullはTpull_final-100msから開始した．
 
-## Acquisition of Wide-field 1 photon image
+### Acquisition of Wide-field 1 photon image
 
 本実験ではAi162およびVGluT1-Creの2系統の遺伝子改変マウスを交配して得られる個体を使用した．これらの改変遺伝子を両方持つ個体では，大脳皮質興奮性細胞にカルシウムインジケーターであるGCaMP6sが発現する．頭部固定プレートの設置手術と同時に，経頭蓋広域カルシウムイメージングを長期間安定的に行うための処置を行った（Kondo&Matsuzaki, Cell Rep., 2021）．
 
@@ -310,11 +308,11 @@ ImagingPlane_blue：blueチャネルの画像取得に関する情報
 
 本実験ではカルシウムセンサーはGCaMP6sを用いており，これは青色光（470nm）で励起されるとカルシウム濃度依存的に緑色光（530nm）の蛍光を発する．一方で紫色光（405nm）で励起されると同様に緑色光の蛍光を発するが，このときの蛍光は細胞内のカルシウム濃度に依存しない．この性質を利用することで広域一光子イメージングにおいて問題になりうる体動や血流量変化によるアーティファクトを一定量補正することができる（Pinto et al., Neuron 2019; Couto et al., Nat. Protocols 2021; Peters et al., Nature 2021）．もしこの青色光励起によって得られた輝度変化データをそのまま用いる場合，その結果は必ずしも神経活動だけによるものではないことに注意が必要である．
 
-## Acquisition of high-speed videography
+### Acquisition of high-speed videography
 
 3台のマシンビジョンカメラを用いて頭部固定マウスの上半身，左顔面，左眼球のビデオ記録を行った．各カメラのサンプリングレートは100Hzで，行動課題の制御・記録を行っているDAQデバイスから出力されるパルス列（5V，100Hz，デューティ比0.5）によって各フレームの取得同期を行った．記録したビデオはmp4形式で保存した．暗室内で撮影を行うため，850nmのLED光源をカメラ後方に設置した．加えて瞳孔経の変動を観察するため，イメージング実施時に約半分程度の開放が得られるよう，マウス正面に設置した910nmLED光源の明るさを調節した．
 
-## Processing of Wide-field 1 photon image
+### Processing of Wide-field 1 photon image
 
 ・B/Vスタック分離，揺れ補正，空間ダウンサンプリング
 
@@ -338,9 +336,9 @@ ROIの設定も、MesoNetで用いられているROIに準拠した。MesoNetで
 
 上記の処理によって得られた各ROIの活動について，hemodynamics補正を行った．まず初めに，青励起と紫励起によって得られたそれぞれの画像スタックにおけるROIの輝度変化を，蛍光強度変化率dFF_b=(Fb - Fb_0) / Fb_0およびdFF_v=(Fv - Fv_0) / Fv_0を計算した．各F0には，励起光ごとそれぞれのROIにおける中央値を用いた．次にdFF_vを時間的に2倍のサンプリングレートにアップサンプリングによって60Hzとし，得られた時系列のうち奇数番目のフレームを新たなdFF_vとした（励起が青色-紫色光の順番で行われているため）．dFF_bおよびdFF_vにハイパスフィルター（0.1Hz cutoff)を適用し，時間的に早い変動成分を除くため，dFF_vには移動平均フィルター（13近傍点）を適用した．さらにローパスフィルター（10Hz cutoff）をdFF_bおよびdFF_vに適用し，これらを用いてdFF_vをdFF_bに対して線形近似することでスケーリングファクターaおよびバイアス項bを求めた．これらa.bとdFF_bおよびdFF_vにより，以下の式によって青励起シグナルに混入している可能性がある血流に由来する成分を減算した：dFF_correct =dFF_b - a x dFF_v + b (ここで用いられたdFF_bおよびdFF_vはローパスフィルタを適用する前の時系列)．
 
-## Processing of Face and Body camera image
+### Processing of Face and Body camera image
 
-### 行動ビデオからのキーポイント推定
+#### 行動ビデオからのキーポイント推定
 
 ビデオからのキーポイント推定を、DeepLabCut (Mathis et al., 2018 Nat Neurosci; Nath, Mathis et al., 2019 Nat Protocol)を用いて行なった。
 
@@ -352,7 +350,7 @@ DeepLabCutの性質上、ターゲットとなるキーポイントがビデオ�
 
 ![スクリーンショット 2024-08-08 1.21.42.png](スクリーンショット_2024-08-08_1.21.42.png)
 
-### 上半身ビデオ
+#### 上半身ビデオ
 
 上半身ビデオからは、左右の手に加えて、参照点としてタスク装置の位置（左右のレバー、lick port）を採った：
 
@@ -361,7 +359,7 @@ DeepLabCutの性質上、ターゲットとなるキーポイントがビデオ�
 - leftbartip, rightbartip: 左右のレバーの先端
 - lickport: lick portの先端
 
-### 顔ビデオ
+#### 顔ビデオ
 
 顔ビデオからは、動きを捉えたい部位として耳・鼻・左右の前肢・顎・舌にキーポイントをとった。このほか参照点になりうる部位として、耳の根元・鼻の根元・目をキーポイントとした：
 
@@ -379,7 +377,7 @@ DeepLabCutの性質上、ターゲットとなるキーポイントがビデオ�
 - eyemedial: 右目頭
 - eyelateral: 右目尻
 
-### 右目ビデオ
+#### 右目ビデオ
 
 右目ビデオでは、瞳孔のトラッキングを主目的として、瞳孔の縁にキーポイントをとった：
 
@@ -387,6 +385,6 @@ DeepLabCutの性質上、ターゲットとなるキーポイントがビデオ�
 - lateralcorner: 右目尻
 - medialcorner: 右目頭
 
-### 瞳孔の推定
+#### 瞳孔の推定
 
 右目ビデオのキーポイントを利用して、瞳孔の位置・大きさの推定を行なった。100 Hzの各ビデオフレームについて、瞳孔の縁にとったキーポイントに楕円をフィッティングし、その中心を「目の位置」、長軸の長さを「瞳孔径」と定義した。

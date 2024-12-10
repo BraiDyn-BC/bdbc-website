@@ -1,0 +1,37 @@
+<h3 class="card-title text-primary">{{ .Title }}</h3>
+
+<div class="card-subtitle text-muted mb-3">
+    <svg xmlns="http://www.w3.org/2000/svg" class="feather">
+        <use href="{{ `images/feather/feather-sprite.svg#calendar` | relURL }}" />
+    </svg>
+    <time class="ms-2" datetime="{{ .Lastmod.Format `2006-01-02T15:04:05Z0700` | safeHTML }}">{{ .Lastmod | time.Format
+        ":date_long" }}</time>
+
+    {{ if isset .Params "categories" }}
+    <svg xmlns="http://www.w3.org/2000/svg" class="feather ms-4">
+        <use href="{{ `images/feather/feather-sprite.svg#folder` | relURL }}" />
+    </svg>
+    {{ range .Params.categories }}
+    <a class="text-decoration-none text-muted ms-2" href="{{ `/categories/` | relLangURL }}{{ . | urlize}}/">{{ . }}</a>
+    {{end}}
+    {{ end }}
+
+    {{ if isset .Params "tags" }}
+    <svg xmlns="http://www.w3.org/2000/svg" class="feather ms-4">
+        <use href="{{ `images/feather/feather-sprite.svg#tag` | relURL }}" />
+    </svg>
+    {{ range .Params.tags }}
+    <a class="text-decoration-none text-muted ms-2" href="{{ `/tags/` | relLangURL }}{{ . | urlize}}/">{{ . }}</a>
+    {{ end }}
+    {{ end }}
+</div>
+
+<div class="card-text">
+    {{ with .Params.description }}
+    {{ . }}
+    {{ else }}
+    {{ .Summary | truncate 400 }}
+    {{ end }}
+</div>
+
+<a class="stretched-link" href="{{.RelPermalink}}"></a>

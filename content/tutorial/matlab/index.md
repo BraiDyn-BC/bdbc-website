@@ -10,7 +10,7 @@ description: セッションのメタデータの表示，トライアル情報�
 
 **MATLABを利用する場合、[Sample：オペラント条件づけの学習](BraiDyn-BC%20Database%201e972fb17ad1470b911aa108fb8c0713/BraiDyn-BC%20Database%20e0b7915fe8a848338ad5b864cf62e07a/Sample%EF%BC%9A%E3%82%AA%E3%83%98%E3%82%9A%E3%83%A9%E3%83%B3%E3%83%88%E6%9D%A1%E4%BB%B6%E3%81%A4%E3%82%99%E3%81%91%E3%81%AE%E5%AD%A6%E7%BF%92%E9%81%8E%E7%A8%8B%207406ca6719fe4827bfaa0a7fbcdf4baa.md)のデータをローカル環境にダウンロードのうえ、PATHを設定し以下を実行してください。**
 
-https://www.dropbox.com/scl/fi/fzws8va5y6xq8kzyvyj3c/BraiDynDB_handlingSampleData.m?rlkey=aofn0pyeziccivwwxgaonjywr&dl=0
+[BraiDynDB_handlingSampleData.m](https://www.dropbox.com/scl/fi/fzws8va5y6xq8kzyvyj3c/BraiDynDB_handlingSampleData.m?rlkey=aofn0pyeziccivwwxgaonjywr&dl=0)
 
 ## Data usage (NWBの読み込み，PETH作成方法など)
 

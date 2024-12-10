@@ -27,6 +27,13 @@ $bd-primary-rgb: 24, 105, 55;
         --bs-btn-active-bg: var(--bd-primary);
         --bs-btn-active-border-color: var(--bd-primary);
     }
+
+    .bd-masthead {
+        h1 {
+            font-size: 4rem;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+    }
 }
 
 .navbar {
@@ -38,7 +45,7 @@ $bd-primary-rgb: 24, 105, 55;
     background-color: transparent;
     background-image: linear-gradient(to bottom, rgba(var(--bd-primary-rgb), 1), rgba(var(--bd-primary-rgb), 0.95));
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
-    
+
     img {
         object-fit: contain;
         padding-bottom: 0.2rem;
@@ -64,17 +71,20 @@ $bd-primary-rgb: 24, 105, 55;
 }
 
 .database #content {
-    @media (min-width: 1000px) { 
-        padding: 0 8rem;
-    }
     img {
         width: 100%;
-        height: auto;
+        max-height: 800px;
         object-fit: contain;
-        padding: 0 8rem;
     }
     blockquote {
+        padding: 0 1.25rem 1.25rem 1.25rem;
         text-align: left;
-        margin: 0 8rem;
+        white-space: pre-wrap;
+
+        p {
+            margin: 0;
+            padding: 0;
+            display: inline;
+        }
     }
 }
