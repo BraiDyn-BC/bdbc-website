@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<section class="section bd-masthead position-relative">
+<section class="section bd-masthead position-relative" style="background-image: url('{{ `images/home_bg.png` | relURL }}');">
   <div class="container-xxl">
     <div class="col-md-9 mx-auto text-center position-relative">
       <img class="d-block ms-auto mb-3" src="{{ `images/brain.png` | relURL }}" width="320" height="320" alt="Logo">
       <h1 class="display-4 fw-semibold mb-3 position-absolute top-0 start-0 text-white">{{ .Site.Title }}</h1>
-      <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="./database/sample1" role="button">Download Latest Data</a>
+      <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="database/sample1" role="button">Download Latest Data</a>
       <p class="opacity-50">
         {{ with .Site.GetPage "database/sample1" }}
           {{ .Title }}

@@ -1,7 +1,8 @@
 ---
 title: "Sample:オペラント条件づけの学習過程"
-date: 2024-08-08T10:00:00+09:00
+date: 2024-08-08T00:00:00+09:00
 draft: false
+weight: 1
 tags: [Sample, Database]
 images: [c78daeec-3aa0-4996-848f-f650e0f4e203.png]
 description: 頭部固定マウスにおいて，右前肢で操作可能なレバーを用いたオペラントコンディショニング課題を行った．課題学習中の背側大脳皮質神経活動，上半身・顔・眼球のビデオ記録，および行動・環境センサーの値を15セッション（30min/セッション）にわたって記録した．これに加え，オペラントコンディショニング開始から起算して−1，1,7,15セッション目の行動課題後に，安静時脳活動を記録した（10min/セッション）．オペラントコンディショニング開始から起算して16セッション目には，麻酔下条件で感覚刺激応答を記録した（15min）．本実験において、Ca2+センサーと広視野1光子顕微鏡（Wide-field 1p）により背側大脳皮質全体の神経活動を計測した。さらにマウスの上半身・顔・眼球のビデオ記録ビデオデータ(Body/Face/Eye Camera)を行った。またマウスの行動データとしてレバー位置，舌なめ（licking）に加え，報酬や音刺激提示のタイミングを計測した(Behavior data)。本サンプルデータ公開は，全25個体ぶんのデータ公開に先駆けて1個体の全セッションのデータを①生データ（記録された状態のままのデータ）および②前処理済みデータ（すぐ解析に使用できるよう定型的な処理を施したデータ）の双方を，Creative Commonsライセンスで提供するものである。 
@@ -30,7 +31,6 @@ description: 頭部固定マウスにおいて，右前肢で操作可能なレ�
 ### NWB  processed dataset (Recommended)
 
 > 💡 All NWB dataset (46GB): [Dropboxファイル](https://www.dropbox.com/scl/fo/lm6mdu4j7egraynkfir7g/AOchoUWzlYLqsUHJvDOjT5M?rlkey=48nmrnfa0sm8y43w3c172kzcv&dl=0)
->
 > Day 1 resting state: [VG1GC-61_2023-06-15_resting-state-day1.nwb](https://www.dropbox.com/scl/fi/4t2liwobfq1uy81sqrmk8/VG1GC-61_2023-06-15_resting-state-day1.nwb?rlkey=gnnytl3lv53xlskr8afa1mo8r&dl=0)
 > Day 7 resting state: [VG1GC-61_2023-06-23_resting-state-day7.nwb](https://www.dropbox.com/scl/fi/plsveiru8zniwbok9fz2k/VG1GC-61_2023-06-23_resting-state-day7.nwb?rlkey=7d4s5oojwqur9m4ujugjabd37&dl=0)
 > Day 15 resting state: [VG1GC-61_2023-07-05_resting-state-day15.nwb](https://www.dropbox.com/scl/fi/gf8yvxompaeaodecg074u/VG1GC-61_2023-07-05_resting-state-day15.nwb?rlkey=oe3uw8z0n6xenuv2wont3wl8v&dl=0)
@@ -348,7 +348,7 @@ DeepLabCutの性質上、ターゲットとなるキーポイントがビデオ�
 
 ダウンサンプリング・前処理済みのデータについては、キーポイントごとに恣意的なフィルタリングをかけた。各キーポイントについてまず適当な閾値をとり、尤度が閾値に満たないデータ点については欠損値とした。さらに残ったデータ点について、x座標、y座標それぞれで中央95パーセントの範囲を計算し、x/y両方の座標がこの範囲に含まれていない場合、やはり欠損値とした。ダウンサンプリングの際は、30 Hzでのイメージングの各フレームの値として、そのフレームの開始時点から次のフレームの開始時点までの時間に存在する全ての（欠損値でない）データ点の平均値を充てた。このような手順を使用している関係上、ダウンサンプリングデータには多くの欠損値が存在することに注意が必要である。
 
-![スクリーンショット 2024-08-08 1.21.42.png](スクリーンショット_2024-08-08_1.21.42.png)
+![スクリーンショット 2024-08-08 1.21.42.png](2024-08-08_1.21.42.png)
 
 #### 上半身ビデオ
 

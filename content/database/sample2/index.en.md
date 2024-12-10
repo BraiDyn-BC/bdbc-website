@@ -1,9 +1,10 @@
 ---
 title: "Sample: Learning process of classical conditioning"
-date: 2024-08-08T09:00:00+09:00
+date: 2024-08-08T00:00:00+09:00
 draft: false
+weight: 2
 tags: [Sample, Database]
-images: [スクリーンショット_2022-08-24_1.09.30.png]
+images: [2022-08-24_1.09.30.png]
 description: Classical conditioning experiments were conducted on head-fixed mice. Two different sounds, 6 kHz and 10 kHz, were presented as the conditioned stimulus (CS), and water was rewarded 70% of the time for 6 kHz and 30% of the time for 10 kHz, respectively, as the unconditioned stimulus (US). This experiment was conducted on two individual mice for about 30 minutes for a total of 17 days to record the learning process of classical conditioning. During this recording experiment, brain activity was measured throughout the cortex using a wide-field 1-photon microscope (Wide-field 1p) with a Ca2+ probe. In addition, video data (Face Camera, Body Camera) of the face and upper body of the mice were measured. Behavioral data of the mice were measured in terms of the timing of the clicks and rewards (Behavior data). The sample data is provided under a Creative Commons license for one session per individual on the 10th day after the completion of classical conditioning learning in the measurement system. In a similar paradigm, Kondo et. al. 2021 analyzed neural activity in one- and two-photon images of classical conditioning **only after learning** and found that the dorsal medial frontal cortex (dmFrC) was the starting point for reward anticipatory behavior. In the Sample dataset, we provide data from one individual after learning, as in Kondo et. al. 2021. The sample dataset provides data from one individual after learning, as in Kondo et al. 2021.
 ---
 
@@ -23,7 +24,7 @@ Classical conditioning experiments were conducted on head-fixed mice. Two differ
 
 In a similar paradigm, Kondo et. al. 2021 analyzed neural activity in one- and two-photon images of classical conditioning **only after learning** and found that the dorsal medial frontal cortex (dmFrC) was the starting point for reward anticipatory behavior. In the Sample dataset, we provide data from one individual after learning, as in Kondo et. al. 2021. The sample dataset provides data from one individual after learning, as in Kondo et al. 2021.
 
-![スクリーンショット 2022-08-24 1.09.30.png](%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588_2022-08-24_1.09.30.png)
+![スクリーンショット 2022-08-24 1.09.30.png](2022-08-24_1.09.30.png)
 
 ## Sample dataset
 
@@ -32,29 +33,26 @@ In a similar paradigm, Kondo et. al. 2021 analyzed neural activity in one- and t
 **Raw data**
 
 > 💡 Body Camera Movie: [https://drive.google.com/file/d/11FX1B8sKJRLO9na8_S3nKRQ1pLSeVtvn/view?usp=sharing](https://drive.google.com/file/d/1846ha7H2c-oNmAImd9c3h0XRDXt2RYz2/view?usp=sharing)
-> Face Camera Movie: 
-> https://drive.google.com/file/d/1zsyIeEw98-aM-WcutHQIHUkFfeFI0QxY/view?usp=sharing
+> Face Camera Movie: https://drive.google.com/file/d/1zsyIeEw98-aM-WcutHQIHUkFfeFI0QxY/view?usp=sharing
 > Wide Field 1p(1-4 are consecutive 1 Session frames when combined):
 > 1: https://drive.google.com/file/d/1pqB8-33TGIJcIRWV0QUTEZbjOXeRUqmc/view?usp=sharing
 > 2: https://drive.google.com/file/d/1ribGnUIg-prPB78pnaZ7RATgfNzN2gPR/view?usp=sharing
 > 3: https://drive.google.com/file/d/1m30zsBJcAioRRdBLKRZhECkUhAyb8HKE/view?usp=sharing
 > 4: https://drive.google.com/file/d/11NqaQ2hMMMl2yBiAfJ28g7L6qL135Myc/view?usp=sharing
-> Behavior data: 
-> https://drive.google.com/file/d/1Co1oGzG0mtqNthAILHo85lS4eY-oGXSk/view?usp=sharing
+> Behavior data: https://drive.google.com/file/d/1Co1oGzG0mtqNthAILHo85lS4eY-oGXSk/view?usp=sharing
 
-![スクリーンショット 2022-08-11 23.30.52.png](スクリーンショット_2022-08-11_23.30.52.png)
+![スクリーンショット 2022-08-11 23.30.52.png](2022-08-11_23.30.52.png)
 
 **Analyzed data**
 
 > 💡 Processed data: https://drive.google.com/file/d/1WSgk6Ku1hRn6pJv_KOD5FfUKV5RLK_Q5/view?usp=sharing
-> ROI region image:　https://drive.google.com/file/d/1xrirQeRZU41P7S7zre7m6na9rBeh0wKt/view?usp=sharing
-> Activity movie:
-> https://drive.google.com/file/d/15X05Y0_eqOgnuR_qhegy5SujGTIGO7AE/view?usp=sharing
+> ROI region image: https://drive.google.com/file/d/1xrirQeRZU41P7S7zre7m6na9rBeh0wKt/view?usp=sharing
+> Activity movie: https://drive.google.com/file/d/15X05Y0_eqOgnuR_qhegy5SujGTIGO7AE/view?usp=sharing
 
 
 ### Data License
 
-<img src="Untitled.png" alt="Untitled" style="width:300px"/>
+![CC BY](Untitled.png)
 
 This sample dataset is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
@@ -144,11 +142,11 @@ Behavioral data (analog voltage recorded via AD converter) measured at 5000 Hz f
 
 ## Results
 
-![スクリーンショット 2022-08-14 13.42.43.png](スクリーンショット_2022-08-14_13.42.43.png)
+![スクリーンショット 2022-08-14 13.42.43.png](2022-08-14_13.42.43.png)
 
 Schematic of classical conditioning task with different reward probabilities, with higher probability of reward after 6kH of sound presentation.
 
-![スクリーンショット 2022-08-14 13.39.34.png](スクリーンショット_2022-08-14_13.39.34.png)
+![スクリーンショット 2022-08-14 13.39.34.png](2022-08-14_13.39.34.png)
 
 Lick changes between 6kHz (red) and 10kHz (blue) as the number of sessions (days) elapses, showing that the number of Licks is the same for each sound in the early stages of Lick learning, but that the 6kHz sound learns significantly more Licks as the days elapse. The data presented here is from one individual in Session 7.
 

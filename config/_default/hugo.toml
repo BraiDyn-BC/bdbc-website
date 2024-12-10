@@ -1,5 +1,8 @@
-baseURL = 'https://braidyndbcdatabase.netlify.app'
-languageCode = 'en-us'
+# baseURL = 'https://braidyndbcdatabase.netlify.app'
+# baseURL = 'https://braidyn-bc.github.io/bdbc-website/'
+# baseURL = 'https://braidyn-bc.github.io/'
+# baseURL = '/'
+languageCode = 'ja-jp'
 title = 'BraiDyn-BC Database'
 theme = "hugo-bootstrap-theme"
 themesdir = "node_modules/@filipecarneiro"
@@ -11,17 +14,3 @@ enableRobotsTXT = true
 enableEmoji = true
 #sectionPagesMenu = "main"
 #googleAnalytics = "UA-1511XXXX-X"
-
-[permalinks]
-
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.139.0"
-    max = "0.139.3"
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"

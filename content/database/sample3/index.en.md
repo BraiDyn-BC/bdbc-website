@@ -1,9 +1,10 @@
 ---
 title: "Sample: Learning Lever pull motor task"
-date: 2024-08-08T08:00:00+09:00
+date: 2024-08-08T00:00:00+09:00
 draft: false
+weight: 3
 tags: [Sample, Database]
-images: [スクリーンショット_2022-08-24_1.11.38.png]
+images: [2022-08-24_1.11.38.png]
 description: In this sample data, we present one session each of wide-area one-photon calcium imaging of the dorsal cortex of mice performing a motor task that is rewarded by holding a lever to an adaptively variable range, and two-photon calcium imaging of layer 2/3 (L2/3) and layer 5 (L5) of the forelimb-related dorsal motor area (here simply M1).
 ---
 
@@ -21,7 +22,7 @@ description: In this sample data, we present one session each of wide-area one-p
 
 In this sample data, we present one session each of wide-area one-photon calcium imaging of the dorsal cortex of mice performing a motor task that is rewarded by holding a lever to an adaptively variable range, and two-photon calcium imaging of layer 2/3 (L2/3) and layer 5 (L5) of the forelimb-related dorsal motor area (here simply M1).
 
-![スクリーンショット 2022-08-24 1.11.38.png](スクリーンショット_2022-08-24_1.11.38.png)
+![スクリーンショット 2022-08-24 1.11.38.png](2022-08-24_1.11.38.png)
 
 ## Sample dataset
 
@@ -40,7 +41,7 @@ In this sample data, we present one session each of wide-area one-photon calcium
 > Body Camera data (5kHz): https://drive.google.com/file/d/1YSOj7o7yXGLFi3H8Snx9e0Um9eA2L6G4/view?usp=sharing
 > Behavior data (5kHz): https://drive.google.com/file/d/1zHu86snLE1W7DfJVUpwPBHTcfRV4GrEB/view?usp=sharing
 
-![スクリーンショット 2022-08-14 22.53.23.png](スクリーンショット_2022-08-14_22.53.23.png)
+![スクリーンショット 2022-08-14 22.53.23.png](2022-08-14_22.53.23.png)
 
 **Processed data**
 
@@ -67,7 +68,7 @@ In this sample data, we present one session each of wide-area one-photon calcium
 
 ### Data License
 
-<img src="Untitled.png" alt="Untitled" style="width:300px"/>
+![CC BY](Untitled.png)
 
 This sample dataset is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
@@ -177,7 +178,7 @@ lower_lip': Lower lip
 jaw':chin
 tongue':tip of tongue
 cNMF (structure): Result of performing ROI detection using CNMF (same as created in Preprocessed).
-A,C,S,P,b,f: CNMF output results ([https://github.com/flatironinstitute/CaImAn-MATLAB/wiki/Interpreting-Results](https://github.com/ flatironinstitute/CaImAn-MATLAB/wiki/Interpreting-Results)). since the AR model is estimated with p=0, the following F_dcv is used to handle data after deconvolution.
+A,C,S,P,b,f: CNMF output results ([https://github.com/flatironinstitute/CaImAn-MATLAB/wiki/Interpreting-Results](https://github.com/flatironinstitute/CaImAn-MATLAB/wiki/Interpreting-Results)). since the AR model is estimated with p=0, the following F_dcv is used to handle data after deconvolution.
 F,F_bcsub,F0,F_dff,F_dcv,F_denoise: the luminance change of each cell (F,F_bcsub,F0,F_dff), again extracted using the ROI and background information determined by CNMF, and the constrained AR-2 OASIS algorithm (Friedrich, J., Zhou, P., and Paninski, L. (2017). Fast online deconvolution of calcium imaging data. PLoS Comput. Biol. 13, e1005423.), with individual estimates of decay time constant and deconvolution estimates (F_dcv,F* denoise).
 
 ## Result
@@ -186,7 +187,7 @@ F,F_bcsub,F0,F_dff,F_dcv,F_denoise: the luminance change of each cell (F,F_bcsub
 
 The objective of this task is to learn the action of holding the lever continuously within a set target zone for a fixed time (T_target) (A). The task is in the form of a spontaneously initiated task. The task progresses as follows by transitioning between task states (B).
 
-![スクリーンショット 2022-08-24 3.05.33.png](スクリーンショット_2022-08-24_3.05.33.png)
+![スクリーンショット 2022-08-24 3.05.33.png](2022-08-24_3.05.33.png)
 
 The task state transitions from "ITI" to "Ready" by holding the lever below the base threshold set at 0.5 mm for at least 1 second. If the lever exceeds the basal threshold during the "Ready" period, the Task state moves to "Go" and the trial begins, giving the mouse a reaction period of 1000 ms. During this period, if the lever is continuously in the target zone for T_target (200 ms), the trial is considered successful and a reward (4 µl of water) is given immediately even during the reaction period, and the Task state moves to "Success". On the other hand, if the task is not successful within the reaction period, the task state will be changed to "Failure". The target zone is adaptive from the start of the session to the success of the session. The range decreases according to the formula ±3k^n (k=0.995; n=number of successes). To maintain individual motivation, the range was set to increase with the time of the last success (T_lr[sec]) according to the formula T_lr0.004. To provide sensory feedback to the individual on the extent of the target zone, a 10 kHz pure tone was presented while the lever was within the target zone during the "Go" period.
 
@@ -194,7 +195,7 @@ The task state transitions from "ITI" to "Ready" by holding the lever below the 
 
 The learning of the task generally progressed as follows (the data below are different from the individuals in the sample data, and the Target zone was set to start at 5 ± 3 mm). Training was initiated after 2 days of water withdrawal restriction (Terada et al., Nat. Commun., 2018). (A) shows the evolution of Target zones within each session from Session 1 to 6 in one individual; as the sessions progressed, learning progressed to succeed in narrower target zones, and the number of successes increased accordingly (B). (C) shows the average trajectory of the lever at Session 6, with the "go" period transition point as 0, for the width of the target zone indicated at the top of each figure. As the learning progresses, the lever trajectory moves around the center of the target zone regardless of the range of the target zone.
 
-![スクリーンショット 2022-08-24 3.09.22.png](スクリーンショット_2022-08-24_3.09.22.png)
+![スクリーンショット 2022-08-24 3.09.22.png](2022-08-24_3.09.22.png)
 
 #### Imaging
 
