@@ -31,6 +31,15 @@ $bd-primary-rgb: 24, 105, 55;
         }
     }
 
+    #brain {
+        width: 320px;
+        height: 320px;
+        @media (max-width: 800px) {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 120px;
+        }
+    }
 }
 
 .navbar {

@@ -3,7 +3,7 @@
 <section class="section bd-masthead position-relative" style="background-image: url('{{ `images/home_bg.png` | relURL }}');">
   <div class="container-xxl">
     <div class="col-md-9 mx-auto text-center position-relative">
-      <img class="d-block ms-auto mb-3" src="{{ `images/brain.png` | relURL }}" width="320" height="320" alt="Logo">
+      <img id="brain" class="d-block ms-auto" src="{{ `images/brain.png` | relURL }}" alt="Brain">
       <h1 class="display-4 fw-semibold mb-3 position-absolute top-0 start-0 text-white">{{ .Site.Title }}</h1>
       {{ with .Site.GetPage "/database" }}
         {{ with .Pages.ByWeight.Reverse.ByDate.Reverse }}

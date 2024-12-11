@@ -4,7 +4,7 @@ date: 2022-08-25T00:00:00+09:00
 draft: false
 weight: 2
 tags: [Sample, Database]
-images: [2022-08-24_1.09.30.png]
+images: [2022-08-24_1.09.30.png, 2022-08-11_23.30.52.png]
 description: Classical conditioning experiments were conducted on head-fixed mice. Two different sounds, 6 kHz and 10 kHz, were presented as the conditioned stimulus (CS), and water was rewarded 70% of the time for 6 kHz and 30% of the time for 10 kHz, respectively, as the unconditioned stimulus (US). This experiment was conducted on two individual mice for about 30 minutes for a total of 17 days to record the learning process of classical conditioning. During this recording experiment, brain activity was measured throughout the cortex using a wide-field 1-photon microscope (Wide-field 1p) with a Ca2+ probe. In addition, video data (Face Camera, Body Camera) of the face and upper body of the mice were measured. Behavioral data of the mice were measured in terms of the timing of the clicks and rewards (Behavior data). The sample data is provided under a Creative Commons license for one session per individual on the 10th day after the completion of classical conditioning learning in the measurement system. In a similar paradigm, Kondo et. al. 2021 analyzed neural activity in one- and two-photon images of classical conditioning **only after learning** and found that the dorsal medial frontal cortex (dmFrC) was the starting point for reward anticipatory behavior. In the Sample dataset, we provide data from one individual after learning, as in Kondo et. al. 2021. The sample dataset provides data from one individual after learning, as in Kondo et al. 2021.
 ---
 
