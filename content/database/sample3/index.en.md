@@ -1,6 +1,6 @@
 ---
 title: "Sample: Learning Lever pull motor task"
-date: 2024-08-08T00:00:00+09:00
+date: 2022-08-25T00:00:00+09:00
 draft: false
 weight: 3
 tags: [Sample, Database]

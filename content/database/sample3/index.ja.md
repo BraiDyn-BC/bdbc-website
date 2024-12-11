@@ -1,6 +1,6 @@
 ---
 title: "Sample:レバー引き運動の学習"
-date: 2024-08-08T00:00:00+09:00
+date: 2022-08-25T00:00:00+09:00
 draft: false
 weight: 3
 tags: [Sample, Database]
