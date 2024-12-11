@@ -4,12 +4,6 @@ url = ""
 weight = 10
 
 [[main]]
-name = "About"
-url = "about"
-weight = 20
-title = "About"
-
-[[main]]
 name = "Database"
 url = "database"
 weight = 30

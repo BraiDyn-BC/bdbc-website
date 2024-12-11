@@ -17,11 +17,11 @@
   </div>
 </section>
 
-<section class="section container my-3">
-  {{ partial "features" . }}
+<section class="section container">
+  {{ partial (printf "description.%s.html" .Lang) . }}
 </section>
 
-<section class="section container my-3">
+<section class="section container">
   <h3 class="text-secondary text-center my-5">Featured Pages</h3>
   {{ partial "featured-pages" . }}
 </section>
