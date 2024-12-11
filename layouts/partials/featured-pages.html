@@ -1,5 +1,5 @@
 <div class="row g-4">
-    {{ range .Site.Taxonomies.tags.database}}
+    {{ range sort .Site.Taxonomies.tags.database "Date" "desc" }}
         <div class="card">
             <div class="row g-0">
                 <div class="col-md-4 d-flex align-items-center">
