@@ -20,6 +20,10 @@ brew install hugo
 ### Node.jsのインストール
 ```bash
 brew install anyenv
+anyenv init
+```
+表示されたコマンドを設定ファイルに追加してTerminalのウインドウを新しく開いて下記のコマンドを実行します。
+```bash
 anyenv install nodenv
 cd bdbc-website
 nodenv install
